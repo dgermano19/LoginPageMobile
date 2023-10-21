@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-
   
   <script src="components/loader.js"></script>
   <script src="lib/onsenui/js/onsenui.min.js"></script>
@@ -12,11 +11,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-  
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
-  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/homeStyle.css">
 
   <script>
     ons.ready(function() {
@@ -30,13 +29,16 @@
   </script>
 </head>
 <body>
-    <h1 id="mainTitle">AppName</h1>
-    <h2>Login</h2>
-    <form id="loginName"name="loginForm">
-        <input type="text" name="email" id="emailField" placeholder="Your E-mail"/>
-        <input type="password" name="password" id="passwordField" placeholder="Password"/>
-        <button class="customButton" type="submit" id="submitButton">Access</button>
-    </form>
+    <div id="topBar">
+        <h1 id="mainTitle">Welcome!</h1>
+        <a href="index.html"><button id="logOutBtn">Logout</button></a>
+    </div>
+    <h2>Content 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <h2>Content 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <h2>Content 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
 </body>
-<script src="scripts/mainScript.js"></script>
 </html>
